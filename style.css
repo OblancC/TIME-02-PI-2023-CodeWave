@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 80x;
+    display: flex;
+    justify-content: center;
+    background-color: #2359A6;
+}
+
+nav li{
+    justify-content: center;
+    align-items: center;
+
+}
+
+.spam-menu{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.logo{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.span-menu{
+    text-align: center;
+}
+
+nav a{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+}
+
+.span-menu{
+    color: #fff;
+}
