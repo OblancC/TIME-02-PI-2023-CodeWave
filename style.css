@@ -19,6 +19,8 @@ nav{
     display: flex;
     justify-content: center;
     background-color: #2359A6;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
 }
 
 nav li{
