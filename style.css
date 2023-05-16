@@ -7,11 +7,15 @@
     box-sizing: border-box;
 }
 
+:root{
+    --cor-nav:#2359a6
+}
+
 nav{
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 80x;
+    width: 90px;
     display: flex;
     justify-content: center;
     background-color: #2359A6;
@@ -56,4 +60,48 @@ nav a{
 
 .span-menu{
     color: #fff;
+}
+
+.card{
+    padding:10px 20px 10px 20px; 
+    background-color: #d9d9d9;
+    border-radius: 10px;
+}
+
+header{
+    margin-left: 90px;
+    height: 80px;
+    background-color: var(--cor-nav);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+header input{
+    margin-left: 10px;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px 0px 0px 10px;
+    font-size:20px ;
+    background-color: #d9d9d9;
+}
+
+.header-left button{
+    height: 40px;
+    width: 50px;
+    background-color: #fff;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.header-icones img{
+    margin-right: 25px;
+}
+
+.header-left{
+    display: flex;
+    height: 40px;
+    width: 316px;
+    border-radius: 10px 10px 10px 10px;
+    font-size:20px ;
+    background-color: #d9d9d9;
 }
