@@ -72,7 +72,7 @@ nav a{
 
 header{
     margin-left: 90px;
-    height: 80px;
+    height: 8vh;
     background-color: var(--cor-nav);
     align-items: center;
     display: flex;
@@ -135,11 +135,9 @@ header input{
 
 .conteiner-cards{
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
     padding-left: 5.5rem;
-    padding-top: 15rem;
-    padding-bottom: 12rem;
+    padding-top: 17vh;
 }
 
 .home-detail{
@@ -173,4 +171,8 @@ header input{
 body{
     
     background-color: #ACB9CC;
+}
+
+#tela-inicial{
+    height: 92vh;
 }
