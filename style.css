@@ -127,3 +127,95 @@ header input{
 }
 
 
+#tela-inicial_solicitacoes{
+    font-family: 'ABeeZee', sans-serif;
+    display: flex;
+    align-items: center;
+    background-color: #E1E1E1;
+    font-size: 15px;
+    height: 92vh;
+    flex-direction: column;
+    padding-top: 5vw;
+}
+
+#tela-inicial_solicitacoes h1{
+    font-size: 17px;
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 400;
+}
+
+.card-container{
+    background-color: #D9D9D9;
+}
+
+.table-content_solicitacoes {
+    border-collapse: collapse;
+    margin: 0 0 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table-content_solicitacoes thead tr{
+    background-color: #BBBBBB;
+    text-align: left;
+    font-weight: bold;
+}
+
+.table-content_solicitacoes th,
+.table-content_solicitacoes td{
+    padding: 12px 15px;
+}
+
+.table-content_solicitacoes tbody tr{
+    border-bottom: 1px solid black;
+}
+
+.table-content_solicitacoes tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.container_solicitacoes{
+    height: 650px;
+}
+
+.container_solicitacoes button {
+    background-color: E1E1E1;
+    width: 123px;
+    height: 44px;
+    color: var(--cor-primaria);
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botoes_tabela_cima{
+    display: flex;
+    flex-direction: row;
+}
+
+.botao_itens_uso{
+    margin-left: 10px;
+}
+
+.botoes_tabela_baixo{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.botao_excluir{
+    margin-right: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.botao_cadastrar{
+    margin-right: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
