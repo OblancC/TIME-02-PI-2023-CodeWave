@@ -69,15 +69,17 @@
     </header>
     <section id="tela-inicial">
         <div class="texto-estoque">
-        <h1>Estoque</h1>
+            <h1>Estoque</h1>
         </div>
         <div class="container">
-            <button class="itens-cadastrados">
-                <h4>Itens <br>Cadastrados<br></h4>
-            </button>
-            <button class="itens-em-uso">
-                <h4>Itens em Uso</h4>
-            </button>
+            <div class="botoes-itens-cadastrados">
+                <button>
+                    <h4>Itens <br>Cadastrados<br></h4>
+                </button>
+                <button class="itens-em-uso">
+                    <h4>Itens em Uso</h4>
+                </button>
+            </div>
             <table class="table-content">
                 <thead>
                     <tr>
@@ -180,13 +182,15 @@
                     </tr>
                 </tbody>
             </table>
-            <button class="itens-cadastrados">
+            <div class="botoes-embaixo">
+            <button class="excluir-itens">
                 <h4>Excluir</h4>
             </button>
-            <button class="itens-cadastrados">
+            <button class="cadastrar-novo">
                 <h4>Cadastrar Novo <br>item<br></h4>
             </button>
         </div>
+    </div>
     </section>
 </body>
 

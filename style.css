@@ -157,3 +157,30 @@ header input{
 .table-content tbody tr:nth-of-type(even) {
     background-color: #f3f3f3;
 }
+
+.botoes-itens-cadastrados{
+    display: flex;
+    flex-direction: row;
+}
+
+.itens-em-uso{
+    margin-left: 10px;
+}
+
+.botoes-embaixo{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.excluir-itens{
+    margin-right: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);   
+}
+
+.cadastrar-novo{
+    margin-right: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
