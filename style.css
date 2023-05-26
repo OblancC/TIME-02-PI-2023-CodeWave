@@ -132,8 +132,8 @@ header input{
     display: flex;
     align-items: center;
     background-color: #A6B4C7;
-    font-size: 15px;
-    height: 92vh;
+    font-size: 20px;
+    height: 91.5vh;
     flex-direction: column;
 }
 
@@ -166,7 +166,7 @@ header input{
 
 .table-content_solicitacoes th,
 .table-content_solicitacoes td{
-    padding: 12px 15px;
+    padding: 12px 50px;
 }
 
 .table-content_solicitacoes tbody tr{
@@ -179,7 +179,8 @@ header input{
 }
 
 .container_solicitacoes{
-    height: 650px;
+    padding-top: 50px;
+    height: 500px;
 }
 
 .container_solicitacoes button {
