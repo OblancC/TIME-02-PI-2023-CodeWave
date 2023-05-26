@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     outline: none;
@@ -7,11 +7,11 @@
     box-sizing: border-box;
 }
 
-:root{
-    --cor-nav:#2359a6
+:root {
+    --cor-nav: #2359a6
 }
 
-nav{
+nav {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -23,36 +23,36 @@ nav{
     font-size: 15px;
 }
 
-nav li{
+nav li {
     justify-content: center;
     align-items: center;
 
 }
 
-.spam-menu{
+.spam-menu {
     justify-content: center;
     align-items: center;
     display: flex;
 }
 
-.logo{
+.logo {
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.menu li{
+.menu li {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.span-menu{
+.span-menu {
     text-align: center;
 }
 
-nav a{
+nav a {
     justify-content: center;
     align-items: center;
     display: flex;
@@ -60,68 +60,157 @@ nav a{
     padding-bottom: 25px;
 }
 
-.span-menu{
+.span-menu {
     color: #fff;
 }
 
-.card{
-    padding:10px 20px 10px 20px; 
+.card {
+    padding: 10px 20px 10px 20px;
     background-color: #d9d9d9;
     border-radius: 10px;
 }
 
-header{
+header {
     margin-left: 90px;
-    height: 80px;
+    height: 8vh;
     background-color: var(--cor-nav);
     align-items: center;
     display: flex;
     justify-content: space-between;
 }
 
-header input{
+header input {
     margin-left: 10px;
     height: 40px;
     width: 300px;
     border-radius: 10px 0px 0px 10px;
-    font-size:20px ;
+    font-size: 20px;
     background-color: #d9d9d9;
 }
 
-.header-left button{
+.header-left button {
     height: 40px;
     width: 50px;
     background-color: #fff;
     border-radius: 0px 10px 10px 0px;
 }
 
-.header-icones img{
+.header-icones img {
     margin-right: 25px;
+
 }
 
-.header-left{
+.reduser {
+    padding: 10px 20px 10px 20px;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: none;
+    display: inline-block;
+    border: 3px solid red;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.header-left {
     display: flex;
     height: 40px;
     width: 316px;
     border-radius: 10px 10px 10px 10px;
-    font-size:20px ;
+    font-size: 20px;
     background-color: #d9d9d9;
 }
 
-#tela-inicial{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.itens-cadastrados {
     background-color: #E1E1E1;
+    width: 168px;
+    height: 56px;
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
     font-size: 15px;
-    height: 50px;
+    line-height: 18px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
 }
 
-#tela-inicial h1{
+.texto-estoque {
+    display: flex;
+    margin-bottom: 81px;
+    background-color: #E1E1E1;
+    width: 100vw;
+    height: 44px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-estoque h1 {
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+
+
+#tela-inicial {
+    font-family: ABeeZee;
+    display: flex;
+    align-items: center;
+    background-color: #A6B4C7;
+    font-size: 15px;
+    height: 92vh;
+    flex-direction: column;
+}
+
+.newuser{
+    display: flex;
+    justify-content: right;
+    
+}
+
+#tela-inicial h1 {
+    font-size: 17px;
     font-family: 'ABeeZee', sans-serif;
     font-weight: 400;
 }
 
-.card-container{
+.card-container {
     background-color: #D9D9D9;
+}
+
+.table-content {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table-content thead tr {
+    background-color: #BBBBBB;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+.table-content th,
+.table-content td {
+    padding: 12px 15px;
+}
+
+.table-content tbody tr {
+    background-color: #BBBBBB;
+    border-bottom: 1px solid black;
+}
+
+.table-content tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
 }
