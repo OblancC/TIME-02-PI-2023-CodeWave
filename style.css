@@ -187,7 +187,7 @@ header input {
 .table-content {
     border-collapse: collapse;
     margin: 25px 0;
-    font-size: 0.9em;
+    font-size: 17px;
     min-width: 400px;
     border-radius: 5px 5px 0 0;
     overflow: hidden;
