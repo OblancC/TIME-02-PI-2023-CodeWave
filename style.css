@@ -88,6 +88,18 @@ header input {
     background-color: #d9d9d9;
 }
 
+.redestoque {
+    padding: 10px 20px 10px 20px;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: none;
+    display: inline-block;
+    border: 3px solid red;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
 .header-left button {
     height: 40px;
     width: 50px;
