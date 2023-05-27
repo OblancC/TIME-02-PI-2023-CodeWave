@@ -1,70 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
-    <title>Labmaker</title>
+    <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
+    <title>Login - Labmaker</title>
+    <link rel="stylesheet" href="style-login.css">
 </head>
-<body>
-    <div class="header">
-        <nav class="menu">
-            <ul>
-                <li>
-                    <a href="#" class="logo">
-                        <img src="./Icones/Sidebar/Logo.svg" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="./Icones/Sidebar/Home.svg" alt="" class="card">
-                        <span class="span-menu">Inicio</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="./Icones/Sidebar/Solicitações.svg" alt="" class="card">
-                        <span class="span-menu">Solicitações</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="./Icones/Sidebar/Usuario.svg" alt="" class="card">
-                        <span class="span-menu">Usuários</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="./Icones/Sidebar/Estoque.svg" alt="" class="card">
-                        <span class="span-menu">Estoque</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="./Icones/Sidebar/Relatorio.svg" alt="" class="card">
-                        <span class="span-menu">Relatórios</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </div>
-    <header>
-        <div class="header-left">
-            <input type="text" placeholder="Digite Aqui">
-            <button><img src="./Icones/Header/Lupa.svg" alt=""></button>
-        </div>
-        <div class="header-icones">
-            <a href="#user"><img src="./Icones/Header/Usuario.svg" alt=""></a>
-            <a href="#logout"><img src="./Icones/Header/Logout.svg" alt=""></a>
-        </div>
-    </header>
+<body class="login">
+    <section class="container">
+        <img src="./imagens/icon-site.png" alt="" class="img-site">
+        <h2>Login</h2>
+        <form action="">
+            <div class="input-field">
+                <input type="text" name="username" id="username"
+                    placeholder="E-mail">
+                <div class="underline"></div>
+            </div>
+            <div class="input-field">
+                <input type="password" name="password" id="password"
+                    placeholder="Senha">
+                <div class="underline"></div>
+            </div>
+            <div class="checkbox"> <input type="checkbox"> Lembrar Senha</div>
+            <input type="submit" value="Enviar">
+        </form>
 
+        <div class="esquece-senha">
+            <span><a href="./Esqueceu Senha.html">Esqueceu a senha?</a></span>
+        </div>
+        <div class="divlogopti">
+            <img src="./imagens/pti_logo.png" alt="" class="logopti">
+        </div>
+    </section>
 </body>
 </html>
