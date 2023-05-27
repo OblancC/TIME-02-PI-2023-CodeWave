@@ -253,3 +253,8 @@ header input {
     text-align: center;
     color: #000000;
 }
+
+.botoes-embaixo h4{
+    text-decoration: none;
+    color: black;
+}
