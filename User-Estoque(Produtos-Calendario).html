@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="calen_style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
@@ -15,30 +15,32 @@
     <title>Labmaker</title>
 </head>
 
-<body>
+<!-------------------------------- Estrutura (Não Alterar) -------------------------------->
+
+<body class="Estrutura">
     <div class="header">
         <nav class="menu">
             <ul>
                 <li>
-                    <a href="/User/Home/user-home.html" class="logo">
-                        <img src="/Icones/Sidebar/Logo.svg" alt="">
+                    <a href="./User-Home.html" class="logo">
+                        <img src="./Icones/Sidebar/Logo.svg" alt="">
                     </a>
                 </li>
                 <li>
-                    <a href="/User/Home/user-home.html">
-                        <img src="/Icones/Sidebar/Home.svg" alt="" class="card">
+                    <a href="./User-Home.html">
+                        <img src="./Icones/Sidebar/Home.svg" alt="" class="card">
                         <span class="span-menu">Inicio</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/User/solicitacoes/user_solicitacoes.html">
-                        <img src="/Icones/Sidebar/Solicitações.svg" alt="" class="card">
+                    <a href="./User-Solicitacoes.html">
+                        <img src="./Icones/Sidebar/Solicitações.svg" alt="" class="card">
                         <span class="span-menu">Solicitações</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/User/Estoque/user_estoque.html">
-                        <img src="/Icones/Sidebar/Estoque.svg" alt="" class="card">
+                    <a href="./User-Estoque(Produtos).html">
+                        <img src="./Icones/Sidebar/Estoque.svg" alt="" class="card">
                         <span class="span-menu">Estoque</span>
                     </a>
                 </li>
@@ -48,20 +50,23 @@
     <header>
         <div class="header-left">
             <input type="text" placeholder="Digite Aqui">
-            <button><img src="/Icones/Header/Lupa.svg" alt=""></button>
+            <button><img src="./Icones/Header/Lupa.svg" alt=""></button>
         </div>
         <div class="header-icones">
-            <img src="/Icones/Header/Usuario.svg" alt="">
-            <a href="/index.html">
-                <img src="/Icones/Header/Logout.svg" alt="">
+            <img src="./Icones/Header/Usuario.svg" alt="">
+            <a href="./index.html">
+                <img src="./Icones/Header/Logout.svg" alt="">
             </a>
         </div>
     </header>
-    <section id="tela-inicial">
-        <div class="texto-estoque">
-            <h1>Estoque</h1>
-        </div>
-        <div class="container">
+    <h1 class="header-title">Selecione um Período</h1>
+    <!-------------------------------- Estrutura (Não Alterar) -------------------------------->
+
+
+    <!----------------------Elementos da Página específica----------------------->
+
+    <section>
+        <div class="container" id="container_estoque">
             <table class="calendario">
                 <tr>
                     <th>Domingo</th>
@@ -127,16 +132,17 @@
                     <td class="vazio"></td>
                 </tr>
             </table>
-            <div class="botoes-embaixo">
-            <button class="voltar_estoque">
-                <h4>Voltar</h4>
-            </button>
-            <button class="enviar_estoque">
-                <h4>Enviar<br></h4>
-            </button>
+            <div class="botoes_solicitacoes" id="botoes_estoque_usuario_calendario">
+                <button>
+                    Voltar
+                </button>
+                <button>
+                    Enviar
+                </button>
+            </div>
         </div>
-    </div>
     </section>
+    <!----------------------Elementos da Página específica----------------------->
 </body>
 
 </html>

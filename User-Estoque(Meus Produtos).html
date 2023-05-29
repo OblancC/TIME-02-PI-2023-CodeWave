@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="est_cad_style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
@@ -15,43 +15,33 @@
     <title>Labmaker</title>
 </head>
 
-<body>
+<!-------------------------------- Estrutura (Não Alterar) -------------------------------->
+
+<body class="Estrutura">
     <div class="header">
         <nav class="menu">
             <ul>
                 <li>
-                    <a href="/Admin/Home/home.html" class="logo">
-                        <img src="/Icones/Sidebar/Logo.svg" alt="">
+                    <a href="./User-Home.html" class="logo">
+                        <img src="./Icones/Sidebar/Logo.svg" alt="">
                     </a>
                 </li>
                 <li>
-                    <a href="/Admin/Home/home.html">
-                        <img src="/Icones/Sidebar/Home.svg" alt="" class="card">
+                    <a href="./User-Home.html">
+                        <img src="./Icones/Sidebar/Home.svg" alt="" class="card">
                         <span class="span-menu">Inicio</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/Admin/Solicitacoes/solicitacoes.html">
-                        <img src="/Icones/Sidebar/Solicitações.svg" alt="" class="card">
+                    <a href="./User-Solicitacoes.html">
+                        <img src="./Icones/Sidebar/Solicitações.svg" alt="" class="card">
                         <span class="span-menu">Solicitações</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/Admin/Usuarios/user.html">
-                        <img src="/Icones/Sidebar/Usuario.svg" alt="" class="card">
-                        <span class="span-menu">Usuários</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="/Admin/Estoque/estoque_cadastro.html">
-                        <img src="/Icones/Sidebar/Estoque.svg" alt="" class="card">
+                    <a href="./User-Estoque(Produtos).html">
+                        <img src="./Icones/Sidebar/Estoque.svg" alt="" class="card">
                         <span class="span-menu">Estoque</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="/Admin/Relatorios/relatorio.html">
-                        <img src="/Icones/Sidebar/Relatorio.svg" alt="" class="card">
-                        <span class="span-menu">Relatórios</span>
                     </a>
                 </li>
             </ul>
@@ -60,44 +50,49 @@
     <header>
         <div class="header-left">
             <input type="text" placeholder="Digite Aqui">
-            <button><img src="/Icones/Header/Lupa.svg" alt=""></button>
+            <button><img src="./Icones/Header/Lupa.svg" alt=""></button>
         </div>
         <div class="header-icones">
-            <img src="/Icones/Header/Usuario.svg" alt="">
-            <a href="/index.html">
-                <img src="/Icones/Header/Logout.svg" alt="">
+            <img src="./Icones/Header/Usuario.svg" alt="">
+            <a href="./index.html">
+                <img src="./Icones/Header/Logout.svg" alt="">
             </a>
         </div>
     </header>
-    <section id="tela-inicial">
-        <div class="texto-estoque">
-            <h1>Estoque</h1>
-        </div>
-        <div class="container">
-            <div class="botoes-itens-cadastrados">
-                <button class="botoes-de-cadastro">
-                    <h4>Itens <br>Cadastrados<br></h4>
-                </button>
-                <button class="itens-em-uso">
-                    <h4>Itens em Uso</h4>
-                </button>
+    <h1 class="header-title">Estoque</h1>
+    <!-------------------------------- Estrutura (Não Alterar) -------------------------------->
+
+
+    <!----------------------Elementos da Página específica----------------------->
+
+    <section>
+        <div class="container" id="container_estoque">
+            <div class="botoes-superioes-estoque-usuario">
+                <div class="botoes-itens-cadastrados" id="botoes-meus-produtos">
+                    <a href="./User-Estoque(Produtos).html">
+                        <button class="botoes-superiores-estoque">
+                            <h4>Produtos</h4>
+                    </a>
+                    </button>
+                    <a href="./User-Estoque(Meus Produtos).html">
+                        <button class="botoes-superiores-estoque" id="botoes-meus-produtos">
+                            <h4>Meus Produtos</h4>
+                        </button>
+                    </a>
+                </div>
             </div>
             <table class="table-content">
                 <thead>
                     <tr>
-                        <th>ID Item</th>
-                        <th>Nome Item</th>
+                        <th>ID Produto</th>
+                        <th>Nome Produto</th>
                         <th>Tipo</th>
-                        <th>Quantidade</th>
-                        <th>Estado</th>
-                        <th>Data Cadastrado</th>
+                        <th>Quantidade Adquirida</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>1 </td>
-                        <td>PRODUTO </td>
-                        <td>PRODUTO </td>
                         <td>PRODUTO </td>
                         <td>PRODUTO </td>
                         <td>PRODUTO </td>
@@ -107,13 +102,9 @@
                         <td>PRODUTO </td>
                         <td>PRODUTO </td>
                         <td>PRODUTO </td>
-                        <td>PRODUTO </td>
-                        <td>PRODUTO </td>
                     </tr>
                     <tr>
                         <td>3 </td>
-                        <td>PRODUTO </td>
-                        <td>PRODUTO </td>
                         <td>PRODUTO </td>
                         <td>PRODUTO </td>
                         <td>PRODUTO </td>
@@ -123,13 +114,9 @@
                         <td>PRODUTO </td>
                         <td>PRODUTO </td>
                         <td>PRODUTO </td>
-                        <td>PRODUTO </td>
-                        <td>PRODUTO </td>
                     </tr>
                     <tr>
                         <td>5 </td>
-                        <td>PRODUTO </td>
-                        <td>PRODUTO </td>
                         <td>PRODUTO </td>
                         <td>PRODUTO </td>
                         <td>PRODUTO </td>
@@ -139,13 +126,9 @@
                         <td>PRODUTO </td>
                         <td>PRODUTO </td>
                         <td>PRODUTO </td>
-                        <td>PRODUTO </td>
-                        <td>PRODUTO </td>
                     </tr>
                     <tr>
                         <td>7 </td>
-                        <td>PRODUTO </td>
-                        <td>PRODUTO </td>
                         <td>PRODUTO </td>
                         <td>PRODUTO </td>
                         <td>PRODUTO </td>
@@ -155,13 +138,9 @@
                         <td>PRODUTO </td>
                         <td>PRODUTO </td>
                         <td>PRODUTO </td>
-                        <td>PRODUTO </td>
-                        <td>PRODUTO </td>
                     </tr>
                     <tr>
                         <td>9 </td>
-                        <td>PRODUTO </td>
-                        <td>PRODUTO </td>
                         <td>PRODUTO </td>
                         <td>PRODUTO </td>
                         <td>PRODUTO </td>
@@ -171,29 +150,23 @@
                         <td>PRODUTO </td>
                         <td>PRODUTO </td>
                         <td>PRODUTO </td>
-                        <td>PRODUTO </td>
-                        <td>PRODUTO </td>
                     </tr>
                     <tr>
                         <td>11 </td>
-                        <td>PRODUTO FICTICIO</td>
-                        <td>PRODUTO FICTICIO</td>
-                        <td>PRODUTO FICTICIO</td>
-                        <td>PRODUTO FICTICIO</td>
-                        <td>PRODUTO FICTICIO</td>
+                        <td>PRODUTO </td>
+                        <td>PRODUTO </td>
+                        <td>PRODUTO </td>
                     </tr>
                 </tbody>
             </table>
-            <div class="botoes-embaixo">
-            <button class="excluir-itens">
-                <h4>Excluir</h4>
-            </button>
-            <button class="cadastrar-novo">
-                <h4>Cadastrar Novo <br>item<br></h4>
-            </button>
+            <div class="botoes_solicitacoes" id="botoes_estoque_usuario">
+                <button>
+                    Devolver
+                </button>
+            </div>
         </div>
-    </div>
     </section>
+    <!----------------------Elementos da Página específica----------------------->
 </body>
 
 </html>

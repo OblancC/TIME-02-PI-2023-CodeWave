@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="soli_style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
@@ -15,42 +15,44 @@
     <title>Labmaker</title>
 </head>
 
-<body>
+<!-------------------------------- Estrutura (Não Alterar) -------------------------------->
+
+<body class="Estrutura">
     <div class="header">
         <nav class="menu">
             <ul>
                 <li>
-                    <a href="/Admin/Home/home.html" class="logo">
-                        <img src="/Icones/Sidebar/Logo.svg" alt="">
+                    <a href="./Admin-Home.html" class="logo">
+                        <img src="./Icones/Sidebar/Logo.svg" alt="">
                     </a>
                 </li>
                 <li>
-                    <a href="/Admin/Home/home.html">
-                        <img src="/Icones/Sidebar/Home.svg" alt="" class="card">
+                    <a href="./Admin-Home.html">
+                        <img src="./Icones/Sidebar/Home.svg" alt="" class="card">
                         <span class="span-menu">Inicio</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/Admin/Solicitacoes/solicitacoes.html">
-                        <img src="/Icones/Sidebar/Solicitações.svg" alt="" class="card">
+                    <a href="./Admin-Solicitacoes.html">
+                        <img src="./Icones/Sidebar/Solicitações.svg" alt="" class="card">
                         <span class="span-menu">Solicitações</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/Admin/Usuarios/user.html">
-                        <img src="/Icones/Sidebar/Usuario.svg" alt="" class="card">
+                    <a href="./Admin-Usuarios.html">
+                        <img src="./Icones/Sidebar/Usuario.svg" alt="" class="card">
                         <span class="span-menu">Usuários</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/Admin/Estoque/estoque_cadastro.html">
-                        <img src="/Icones/Sidebar/Estoque.svg" alt="" class="card">
+                    <a href="./Admin-Estoque(Cadastrados).html">
+                        <img src="./Icones/Sidebar/Estoque.svg" alt="" class="card">
                         <span class="span-menu">Estoque</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/Admin/Relatorios/relatorio.html">
-                        <img src="/Icones/Sidebar/Relatorio.svg" alt="" class="card">
+                    <a href="./Admin-Relatorios.html">
+                        <img src="./Icones/Sidebar/Relatorio.svg" alt="" class="card">
                         <span class="span-menu">Relatórios</span>
                     </a>
                 </li>
@@ -60,23 +62,24 @@
     <header>
         <div class="header-left">
             <input type="text" placeholder="Digite Aqui">
-            <button><img src="/Icones/Header/Lupa.svg" alt=""></button>
+            <button><img src="./Icones/Header/Lupa.svg" alt=""></button>
         </div>
         <div class="header-icones">
-            <img src="/Icones/Header/Usuario.svg" alt="">
-            <a href="/index.html">
-                <img src="/Icones/Header/Logout.svg" alt="">
+            <img src="./Icones/Header/Usuario.svg" alt="">
+            <a href="./index.html">
+                <img src="./Icones/Header/Logout.svg" alt="">
             </a>
         </div>
     </header>
-    <section id="tela-inicial_solicitacoes">
-        <div class="texto_solicitacoes">
-            <h1>Solicitações</h1>
-        </div>
-        <div class="texto-estoque">
-        </div>
-        <div class="container_solicitacoes">
-            <table class="table-content_solicitacoes">
+    <h1 class="header-title">Solicitações</h1>
+    <!-------------------------------- Estrutura (Não Alterar) -------------------------------->
+
+
+    <!----------------------Elementos da Página específica----------------------->
+
+    <section>
+        <div class="container">
+            <table class="table-content">
                 <thead>
                     <tr>
                         <th>ID Solicitação</th>
@@ -92,84 +95,84 @@
                         <td>1</td>
                         <td>Carlos </td>
                         <td>Cadastro </td>
-                        <td>SOLICITAÇÃO </td>
+                        <td>dd-mm-yyyy</td>
                     </tr>
                     <tr>
                         <td>002 </td>
                         <td>2 </td>
                         <td>Johnny </td>
-                        <td>SOLICITAÇÃO </td>
-                        <td>SOLICITAÇÃO </td>
+                        <td>Aluguel </td>
+                        <td>dd-mm-yyyy</td>
                     </tr>
                     <tr>
                         <td>003</td>
                         <td>3 </td>
                         <td>Marcos </td>
-                        <td>SOLICITAÇÃO </td>
-                        <td>SOLICITAÇÃO </td>
+                        <td>Devolução</td>
+                        <td>dd-mm-yyyy</td>
                     </tr>
                     <tr>
                         <td>004</td>
                         <td>4 </td>
                         <td>Octavio </td>
-                        <td>SOLICITAÇÃO </td>
-                        <td>SOLICITAÇÃO </td>
+                        <td>Devolução</td>
+                        <td>dd-mm-yyyy</td>
                     </tr>
                     <tr>
                         <td>005</td>
                         <td>5 </td>
                         <td>Vinicius </td>
-                        <td>SOLICITAÇÃO </td>
-                        <td>SOLICITAÇÃO </td>
+                        <td>Devolução</td>
+                        <td>dd-mm-yyyy</td>
                     </tr>
                     <tr>
                         <td>006</td>
                         <td>6 </td>
                         <td>Ary </td>
-                        <td>SOLICITAÇÃO </td>
-                        <td>SOLICITAÇÃO </td>
+                        <td>Aluguel</td>
+                        <td>dd-mm-yyyy</td>
                     </tr>
                     <tr>
                         <td>007</td>
                         <td>7 </td>
                         <td>Leonardo </td>
-                        <td>SOLICITAÇÃO </td>
-                        <td>SOLICITAÇÃO </td>
+                        <td>Alteração Senha</td>
+                        <td>dd-mm-yyyy</td>
                     </tr>
                     <tr>
                         <td>008</td>
                         <td>8 </td>
                         <td>Pedro</td>
-                        <td>SOLICITAÇÃO </td>
-                        <td>SOLICITAÇÃO </td>
+                        <td>Alteração Senha</td>
+                        <td>dd-mm-yyyy</td>
                     </tr>
                     <tr>
                         <td>009 </td>
                         <td>9 </td>
                         <td>Davi</td>
-                        <td>SOLICITAÇÃO </td>
-                        <td>SOLICITAÇÃO </td>
+                        <td>Aluguel</td>
+                        <td>dd-mm-yyyy</td>
                     </tr>
                     <tr>
                         <td>010</td>
                         <td>10</td>
                         <td>Igo</td>
-                        <td>SOLICITAÇÃO</td>
-                        <td>SOLICITAÇÃO</td>
+                        <td>Devolução</td>
+                        <td>dd-mm-yyyy</td>
                     </tr>
                 </tbody>
             </table>
-            <div class="botoes_tabela_baixo">
-                <button class="botao_excluir">
-                    <h4>Reprovar</h4>
+            <div class="botoes_solicitacoes">
+                <button>
+                    Reprovar
                 </button>
-
-                <button class="botao_cadastrar">
-                    <h4>Aprovar</h4>
+                <button>
+                    Aprovar
                 </button>
             </div>
         </div>
     </section>
+    <!----------------------Elementos da Página específica----------------------->
 </body>
 
 </html>

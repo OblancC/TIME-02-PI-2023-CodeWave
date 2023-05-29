@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="rel_style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
@@ -13,42 +14,45 @@
     <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
     <title>Labmaker</title>
 </head>
-<body>
+
+<!-------------------------------- Estrutura (Não Alterar) -------------------------------->
+
+<body class="Estrutura">
     <div class="header">
         <nav class="menu">
             <ul>
                 <li>
-                    <a href="/Admin/Home/home.html" class="logo">
-                        <img src="/Icones/Sidebar/Logo.svg" alt="">
+                    <a href="./Admin-Home.html" class="logo">
+                        <img src="./Icones/Sidebar/Logo.svg" alt="">
                     </a>
                 </li>
                 <li>
-                    <a href="/Admin/Home/home.html">
-                        <img src="/Icones/Sidebar/Home.svg" alt="" class="card">
+                    <a href="./Admin-Home.html">
+                        <img src="./Icones/Sidebar/Home.svg" alt="" class="card">
                         <span class="span-menu">Inicio</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/Admin/Solicitacoes/solicitacoes.html">
-                        <img src="/Icones/Sidebar/Solicitações.svg" alt="" class="card">
+                    <a href="./Admin-Solicitacoes.html">
+                        <img src="./Icones/Sidebar/Solicitações.svg" alt="" class="card">
                         <span class="span-menu">Solicitações</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/Admin/Usuarios/user.html">
-                        <img src="/Icones/Sidebar/Usuario.svg" alt="" class="card">
+                    <a href="./Admin-Usuarios.html">
+                        <img src="./Icones/Sidebar/Usuario.svg" alt="" class="card">
                         <span class="span-menu">Usuários</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/Admin/Estoque/estoque_cadastro.html">
-                        <img src="/Icones/Sidebar/Estoque.svg" alt="" class="card">
+                    <a href="./Admin-Estoque(Cadastrados).html">
+                        <img src="./Icones/Sidebar/Estoque.svg" alt="" class="card">
                         <span class="span-menu">Estoque</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/Admin/Relatorios/relatorio.html">
-                        <img src="/Icones/Sidebar/Relatorio.svg" alt="" class="card">
+                    <a href="./Admin-Relatorios.html">
+                        <img src="./Icones/Sidebar/Relatorio.svg" alt="" class="card">
                         <span class="span-menu">Relatórios</span>
                     </a>
                 </li>
@@ -58,26 +62,30 @@
     <header>
         <div class="header-left">
             <input type="text" placeholder="Digite Aqui">
-            <button><img src="/Icones/Header/Lupa.svg" alt=""></button>
+            <button><img src="./Icones/Header/Lupa.svg" alt=""></button>
         </div>
         <div class="header-icones">
-            <img src="/Icones/Header/Usuario.svg" alt="">
-            <a href="/index.html">
-                <img src="/Icones/Header/Logout.svg" alt="">
+            <img src="./Icones/Header/Usuario.svg" alt="">
+            <a href="./index.html">
+                <img src="./Icones/Header/Logout.svg" alt="">
             </a>
         </div>
     </header>
-    <section id ="tela-inicial">
-        <h1 class="home-title">Relatórios</h1>
+    <h1 class="header-title">Relatórios</h1>
+    <!-------------------------------- Estrutura (Não Alterar) -------------------------------->
+
+
+    <!----------------------Elementos da Página específica----------------------->
+    <section>
         <div class="conteiner-cards">
             <div class="cards">
                 <span class="home-t1">Solicitações</span>
-                <img src="/Icones/Relatorios/Solicitações.svg" alt="">
+                <img src="./Icones/Relatorios/Solicitações.svg" alt="">
                 <span class="home-detail">Ver Detalhes</span>
             </div>
             <div class="cards">
                 <span class="home-t1">Estoque</span>
-                <img src="/Icones/Relatorios/Estoque.svg" alt="">
+                <img src="./Icones/Relatorios/Estoque.svg" alt="">
                 <span class="home-detail">Ver Detalhes</span>
             </div>
             <div class="cards">
@@ -86,11 +94,9 @@
                 <span class="home-detail">Ver Detalhes</span>
             </div>
         </div>
-        
+
     </section>
+    <!----------------------Elementos da Página específica----------------------->
 </body>
+
 </html>
-
-
-
-

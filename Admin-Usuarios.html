@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="usr_solic_style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
@@ -15,31 +15,45 @@
     <title>Labmaker</title>
 </head>
 
-<body>
+<!-------------------------------- Estrutura (Não Alterar) -------------------------------->
+
+<body class="Estrutura">
     <div class="header">
         <nav class="menu">
             <ul>
                 <li>
-                    <a href="/User/Home/user-home.html" class="logo">
-                        <img src="/Icones/Sidebar/Logo.svg" alt="">
+                    <a href="./Admin-Home.html" class="logo">
+                        <img src="./Icones/Sidebar/Logo.svg" alt="">
                     </a>
                 </li>
                 <li>
-                    <a href="/User/Home/user-home.html">
-                        <img src="/Icones/Sidebar/Home.svg" alt="" class="card">
+                    <a href="./Admin-Home.html">
+                        <img src="./Icones/Sidebar/Home.svg" alt="" class="card">
                         <span class="span-menu">Inicio</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/User/solicitacoes/user_solicitacoes.html">
-                        <img src="/Icones/Sidebar/Solicitações.svg" alt="" class="card">
+                    <a href="./Admin-Solicitacoes.html">
+                        <img src="./Icones/Sidebar/Solicitações.svg" alt="" class="card">
                         <span class="span-menu">Solicitações</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/User/Estoque/user_estoque.html">
-                        <img src="/Icones/Sidebar/Estoque.svg" alt="" class="card">
+                    <a href="./Admin-Usuarios.html">
+                        <img src="./Icones/Sidebar/Usuario.svg" alt="" class="card">
+                        <span class="span-menu">Usuários</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./Admin-Estoque(Cadastrados).html">
+                        <img src="./Icones/Sidebar/Estoque.svg" alt="" class="card">
                         <span class="span-menu">Estoque</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./Admin-Relatorios.html">
+                        <img src="./Icones/Sidebar/Relatorio.svg" alt="" class="card">
+                        <span class="span-menu">Relatórios</span>
                     </a>
                 </li>
             </ul>
@@ -48,131 +62,146 @@
     <header>
         <div class="header-left">
             <input type="text" placeholder="Digite Aqui">
-            <button><img src="/Icones/Header/Lupa.svg" alt=""></button>
+            <button><img src="./Icones/Header/Lupa.svg" alt=""></button>
         </div>
         <div class="header-icones">
-            <img src="/Icones/Header/Usuario.svg" alt="">
-            <a href="/index.html">
-                <img src="/Icones/Header/Logout.svg" alt="">
+            <img src="./Icones/Header/Usuario.svg" alt="">
+            <a href="./index.html">
+                <img src="./Icones/Header/Logout.svg" alt="">
             </a>
         </div>
     </header>
-    <section id="tela-inicial">
-        <div class="texto-estoque">
-            <h1>Minhas Solicitações</h1>
-        </div>
+    <h1 class="header-title">Usuários</h1>
+    <!-------------------------------- Estrutura (Não Alterar) -------------------------------->
+
+
+    <!----------------------Elementos da Página específica----------------------->
+
+    <section>
         <div class="container">
-
-
             <table class="table-content">
                 <thead>
                     <tr>
-                        <th>ID Solicitação</th>
-                        <th>Motivo</th>
-                        <th>Tipo</th>
-                        <th>Data</th>
-                        <th>Status</th>
-                        <th>Detalhes</th>
+                        <th>ID Usuário</th>
+                        <th>Nome de Usuário</th>
+                        <th>E-mail</th>
+                        <th>Senha</th>
+                        <th>Cargo</th>
+                        <th>Criado Por</th>
+                        <th>Data de Criação</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>1</td>
+                        <td>1 </td>
                         <td>LEONARDO</td>
-                        <td>leonardo@example.com</td>
+                        <td>email@email.com</td>
                         <td>SENHA123</td>
                         <td>ANALISTA</td>
                         <td>JOSÉ</td>
+                        <td>25/05/2023</td>
                     </tr>
                     <tr>
-                        <td>2</td>
+                        <td>2 </td>
                         <td>OCTAVIO</td>
-                        <td>octavio@example.com</td>
+                        <td>email@email.com</td>
                         <td>SENHA123</td>
                         <td>ANALISTA</td>
                         <td>JOSÉ</td>
+                        <td>25/05/2023</td>
                     </tr>
                     <tr>
-                        <td>3</td>
+                        <td>3 </td>
                         <td>ARY</td>
-                        <td>ary@example.com</td>
+                        <td>email@email.com</td>
                         <td>SENHA123</td>
                         <td>ANALISTA</td>
                         <td>JOSÉ</td>
+                        <td>25/05/2023</td>
                     </tr>
                     <tr>
-                        <td>4</td>
+                        <td>4 </td>
                         <td>OCTAVIO</td>
-                        <td>octavio@example.com</td>
+                        <td>email@email.com</td>
                         <td>SENHA123</td>
                         <td>ANALISTA</td>
                         <td>JOSÉ</td>
+                        <td>25/05/2023</td>
                     </tr>
                     <tr>
-                        <td>5</td>
+                        <td>5 </td>
                         <td>GUSTAVO</td>
-                        <td>gustavo@example.com</td>
+                        <td>email@email.com</td>
                         <td>SENHA123</td>
                         <td>ANALISTA</td>
                         <td>JOSÉ</td>
+                        <td>25/05/2023</td>
                     </tr>
                     <tr>
-                        <td>6</td>
+                        <td>6 </td>
                         <td>PEDRO</td>
-                        <td>pedro@example.com</td>
+                        <td>email@email.com</td>
                         <td>SENHA123</td>
                         <td>ANALISTA</td>
                         <td>JOSÉ</td>
+                        <td>25/05/2023</td>
                     </tr>
                     <tr>
-                        <td>7</td>
+                        <td>7 </td>
                         <td>LUIS</td>
-                        <td>luis@example.com</td>
+                        <td>email@email.com</td>
                         <td>SENHA123</td>
                         <td>ANALISTA</td>
                         <td>JOSÉ</td>
+                        <td>25/05/2023</td>
                     </tr>
                     <tr>
-                        <td>8</td>
+                        <td>8 </td>
                         <td>MARIA</td>
-                        <td>maria@example.com</td>
+                        <td>email@email.com</td>
                         <td>SENHA123</td>
                         <td>ANALISTA</td>
                         <td>JOSÉ</td>
+                        <td>25/05/2023</td>
                     </tr>
                     <tr>
-                        <td>9</td>
+                        <td>9 </td>
                         <td>GUSTAVO</td>
-                        <td>gustavo@example.com</td>
+                        <td>email@email.com</td>
                         <td>SENHA123</td>
                         <td>ANALISTA</td>
                         <td>JOSÉ</td>
+                        <td>25/05/2023</td>
                     </tr>
                     <tr>
-                        <td>10</td>
+                        <td>10 </td>
                         <td>MARCIA</td>
-                        <td>marcia@example.com</td>
+                        <td>email@email.com</td>
                         <td>SENHA123</td>
                         <td>ANALISTA</td>
                         <td>JOSÉ</td>
+                        <td>25/05/2023</td>
                     </tr>
                     <tr>
-                        <td>11</td>
+                        <td>11 </td>
                         <td>ANDRÉ</td>
-                        <td>andre@example.com</td>
+                        <td>email@email.com</td>
                         <td>SENHA123</td>
                         <td>ANALISTA</td>
                         <td>JOSÉ</td>
+                        <td>25/05/2023</td>
+
                     </tr>
                 </tbody>
             </table>
-            <div class="newuser">
-                <button class="itens-cadastrados">
-                    <h4>Cancelar Solicitação</h4>
+            <div class="botoes_usuarios">
+                <button>
+                    Criar novo usuário
                 </button>
             </div>
         </div>
     </section>
+    <!----------------------Elementos da Página específica----------------------->
 </body>
 
 </html>
