@@ -413,7 +413,7 @@ button {
 /*ADMIN*/
 /*-------Home-------------------------*/
 
-.cards{
+.cards {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -426,14 +426,14 @@ button {
     background-color: #2359A6;
 }
 
-.conteiner-cards{
+.conteiner-cards {
     display: flex;
     justify-content: space-evenly;
     padding-left: 5.5rem;
     padding-top: 17vh;
 }
 
-.home-detail{
+.home-detail {
     background-color: #ffffff;
     width: 20rem;
     height: 4rem;
@@ -447,14 +447,14 @@ button {
     font-size: 20px;
 }
 
-.cards h1{
+.cards h1 {
     color: #fff;
     font-size: 96px;
     font-family: 'ABeeZee', sans-serif;
     font-weight: 400;
 }
 
-.home-t1{
+.home-t1 {
     color: #fff;
     font-size: 20px;
     font-family: 'ABeeZee', sans-serif;
@@ -473,11 +473,11 @@ button {
 
 /*--------CONTAINER_Usuarios--------*/
 
-.container{
+.container {
     padding-left: 85px;
 }
 
-.botoes_usuarios{
+.botoes_usuarios {
     padding-left: 1200px;
 }
 
@@ -490,28 +490,29 @@ button {
     gap: 6px;
 }
 
-.botoes-superiores-estoque{
+.botoes-superiores-estoque {
     border-radius: 0px;
 }
 
-.botoes-superiores-estoque h4{
+.botoes-superiores-estoque h4 {
     border-radius: 0px;
     color: black;
 }
 
 /*--------CONTAINER_Estoque_USO--------*/
 
-#table-content-estoque{
+#table-content-estoque {
     width: 20vw;
 }
 
-#botoes_estoque_uso{
+#botoes_estoque_uso {
     padding-right: 1478px;
 }
 
-#container_estoque{
+#container_estoque {
     padding-top: 90px;
 }
+
 /*ADMIN*/
 
 /*USUARIO*/
@@ -519,20 +520,20 @@ button {
 /*--------Home--------*/
 
 /*--------Estoque--------*/
-.botoes-superioes-estoque-usuario{
+.botoes-superioes-estoque-usuario {
     padding-left: 354px;
 }
 
 /*------Estoque Calendario-------*/
 
 
-.calendario{
+.calendario {
     background-color: rgb(255, 255, 255);
 }
 
 
 
-.vazio{
+.vazio {
     background-color: #00000033;
 }
 
@@ -563,33 +564,45 @@ button {
 .dia28,
 .dia29,
 .dia30,
-.dia31{
+.dia31 {
     background-color: rgba(51, 255, 0, 0.214);
 }
 
 .dia4,
 .dia5,
-.dia6{
+.dia6 {
     background-color: rgba(255, 0, 0, 0.423);
 }
 
-.calendario th, .calendario td{
+.calendario th,
+.calendario td {
     font-size: 15px;
     padding: 8px;
     text-align: center;
 }
 
-.calendario td{
+.calendario td {
     font-size: 25px;
     height: 80px;
     width: 120px;
 }
 
-#botoes_estoque_usuario_calendario{
+#botoes_estoque_usuario_calendario {
     margin-top: 20px;
     padding-right: 295px;
 }
 
-#botoes_estoque_usuario button{
+#botoes_estoque_usuario button {
     color: black;
 }
+
+.icon {
+    font-size: 24px;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: blue;
+}
+
