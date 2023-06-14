@@ -407,7 +407,7 @@ button {
 }
 
 .Estrutura {
-    background-color: #ACB9CC;
+    background-image: url(./Icones/Login/background.png);
 }
 
 /*ADMIN*/
@@ -423,7 +423,7 @@ button {
     width: 20rem;
     padding-top: 1rem;
     border-radius: 10px;
-    background-color: #2359A6;
+    background-color:#dddcdc;
 }
 
 .conteiner-cards {
@@ -434,7 +434,7 @@ button {
 }
 
 .home-detail {
-    background-color: #ffffff;
+    background-color: black;
     width: 20rem;
     height: 4rem;
     display: flex;
@@ -443,19 +443,19 @@ button {
     border-radius: 10px;
     font-family: 'ABeeZee', sans-serif;
     font-weight: 400;
-    color: #000;
+    color: white;
     font-size: 20px;
 }
 
 .cards h1 {
-    color: #fff;
+    color: black;
     font-size: 96px;
     font-family: 'ABeeZee', sans-serif;
     font-weight: 400;
 }
 
 .home-t1 {
-    color: #fff;
+    color: black;
     font-size: 20px;
     font-family: 'ABeeZee', sans-serif;
     font-weight: 400;
