@@ -249,7 +249,7 @@ nav {
     width: 90px;
     display: flex;
     justify-content: center;
-    background-color: #2359A6;
+    background-color: #000;
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 15px;
 }
@@ -304,7 +304,7 @@ nav a {
 header {
     margin-left: 90px;
     height: 8vh;
-    background-color: var(--cor-nav);
+    background-color: #000;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -377,7 +377,7 @@ button {
 }
 
 .table-content thead tr {
-    background-color: #122f57;
+    background-color: #000;
     color: white;
     text-align: left;
     font-weight: bold;
@@ -424,6 +424,10 @@ button {
     padding-top: 1rem;
     border-radius: 10px;
     background-color:#dddcdc;
+}
+
+.icon-card{
+    filter: brightness(0%);
 }
 
 .conteiner-cards {
