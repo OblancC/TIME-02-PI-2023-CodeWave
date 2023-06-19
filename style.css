@@ -466,7 +466,7 @@ button {
 
 
 .botoes_solicitacoes {
-    margin-left: 900px;
+    margin-left: 1095px;
     flex-direction: row;
     justify-content: right;
 }
@@ -521,7 +521,7 @@ button {
 
 /*--------Estoque--------*/
 .botoes-superioes-estoque-usuario {
-    padding-left: 354px;
+    padding-left: 380px;
 }
 
 /*------Estoque Calendario-------*/
